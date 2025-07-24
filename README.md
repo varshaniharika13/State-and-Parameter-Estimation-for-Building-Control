@@ -53,13 +53,13 @@ To achieve these, we rely on advanced control strategies like **Model Predictive
 ---
 ##  Files Included
 
-- ** Report**: Detailed documentation of the methodology, equations, thermal models (1-, 2-, and 4-state), parameter estimation techniques, and results from simulation tests.
-- ** Code**: Python implementations of:
+- **Report**: Detailed documentation of the methodology, equations, thermal models (1-, 2-, and 4-state), parameter estimation techniques, and results from simulation tests.
+- **Code**: Python implementations of:
   - Bayesian Filters and Smoothers (KFS, EKF, UKF, GFS)
   - Parameter Estimation Techniques (State Augmentation, LS, Batch Estimation, MLE)
   - Building Thermal Models and Pendulum Benchmark System
-- ** Figures/Results**: Includes plots for state and parameter estimations across different methods (available in `results/` folder).
-- ** Models**: Modular ODE-based RC network models for single-family homes.
+- **Figures/Results**: Includes plots for state and parameter estimations across different methods (available in `results/` folder).
+- **Models**: Modular ODE-based RC network models for single-family homes.
 
 ---
 
