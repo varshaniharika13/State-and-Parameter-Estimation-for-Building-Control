@@ -1,6 +1,6 @@
 # Bayesian State and Parameter Estimation for Building Thermal Models
 
-## 📌 Overview
+##  Overview
 
 This project explores **state and parameter estimation** techniques for building thermal dynamics using a combination of **Bayesian filters/smoothers** and **optimization methods**. We focus on grey-box modeling of a residential building’s thermal behavior via RC-network ODE models and develop a modular Python package to support Model Predictive Control (MPC).
 
@@ -16,11 +16,11 @@ Parameter estimation techniques:
 - Batch Estimation (MAP-based)
 - Maximum Likelihood Estimation (MLE)
 
-> 🔧 The package is designed to be modular and extensible for use with both simulated and real building data.
+>  The package is designed to be modular and extensible for use with both simulated and real building data.
 
 ---
 
-## 🔍 Motivation
+##  Motivation
 
 According to the US Energy Information Administration (EIA), buildings account for ~40% of total electricity consumption. There is a growing need to:
 - Reduce energy use
@@ -31,7 +31,7 @@ To achieve these, we rely on advanced control strategies like **Model Predictive
 
 ---
 
-## 🧠 Project Structure
+##  Project Structure
 
 ### Models
 - **1-State, 2-State, and 4-State RC Thermal Models** for a single-family house.
@@ -51,15 +51,15 @@ To achieve these, we rely on advanced control strategies like **Model Predictive
   - Building temperature dynamics (planned)
 
 ---
-## 📄 Files Included
+##  Files Included
 
-- **📘 Report**: Detailed documentation of the methodology, equations, thermal models (1-, 2-, and 4-state), parameter estimation techniques, and results from simulation tests.
-- **🧠 Code**: Python implementations of:
+- ** Report**: Detailed documentation of the methodology, equations, thermal models (1-, 2-, and 4-state), parameter estimation techniques, and results from simulation tests.
+- ** Code**: Python implementations of:
   - Bayesian Filters and Smoothers (KFS, EKF, UKF, GFS)
   - Parameter Estimation Techniques (State Augmentation, LS, Batch Estimation, MLE)
   - Building Thermal Models and Pendulum Benchmark System
-- **📊 Figures/Results**: Includes plots for state and parameter estimations across different methods (available in `results/` folder).
-- **📂 Models**: Modular ODE-based RC network models for single-family homes.
+- ** Figures/Results**: Includes plots for state and parameter estimations across different methods (available in `results/` folder).
+- ** Models**: Modular ODE-based RC network models for single-family homes.
 
 ---
 
@@ -76,9 +76,9 @@ To achieve these, we rely on advanced control strategies like **Model Predictive
 
 ## 💡 Future Work
 
-- ✅ Implement and validate algorithms on **EnergyPlus/Modelica-generated** or real-world building datasets.
-- 🔄 Explore **Particle Filters and Expectation Maximization** for improved non-Gaussian or multimodal estimation.
-- 🔁 Extend framework to **online learning** of parameters in time-varying environments (e.g., weather changes, occupancy shifts).
-- 🌐 Incorporate **multi-zone thermal models** for more complex buildings.
-- 🧠 Develop **adaptive control-ready versions** of estimation pipelines for direct MPC integration.
-- 🧪 Perform **robustness testing under sensor noise, missing data**, and model mismatches.
+-  Implement and validate algorithms on **EnergyPlus/Modelica-generated** or real-world building datasets.
+-  Explore **Particle Filters and Expectation Maximization** for improved non-Gaussian or multimodal estimation.
+-  Extend framework to **online learning** of parameters in time-varying environments (e.g., weather changes, occupancy shifts).
+-  Incorporate **multi-zone thermal models** for more complex buildings.
+-  Develop **adaptive control-ready versions** of estimation pipelines for direct MPC integration.
+-  Perform **robustness testing under sensor noise, missing data**, and model mismatches.
